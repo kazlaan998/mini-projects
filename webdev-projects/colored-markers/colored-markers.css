@@ -1,0 +1,52 @@
+h1
+{
+    text-align: center;
+    font-family: cursive;
+}
+
+.marker
+{
+    background-color: red;
+    width: 200px;
+    height: 20px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+.red
+{
+    background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 10px 0 rgba(255,0,0,0.8);
+}
+
+.green
+{
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 10px rgba(0,255,0,0.8);
+}
+
+.blue
+{
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 10px rgba(0,0,255,0.8);
+}
+
+.marker-cap
+{
+    width: 60px;
+    height: 20px;
+}
+
+.marker-body
+{
+    background-color: rgba(255,255,255,0.5);    
+    width: 100px;
+    height: 20px;
+    border-left: 8px double rgba(0,0,0,0.8);
+    border-right: 8px double rgba(0,0,0,0.8);
+}
+
+.marker-cap, .marker-body
+{
+    display: inline-block;
+}
